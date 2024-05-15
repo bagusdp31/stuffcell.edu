@@ -1,0 +1,69 @@
+.full-bg {
+    background-image: url('../img/background.png'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text-white {
+    color: white; /* Set teks menjadi putih */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .neon-background {
+    background: linear-gradient(45deg, #ff00ff, #00ff00, #00ffff, #ff00ff);
+    background-size: 400% 400%;
+    animation: neon-gradient 10s ease infinite;
+  }
+
+  @keyframes neon-gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  .btn {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+
+  .sketchfab-embed-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Untuk aspect ratio 16:9 */
+  }
+  
+  .sketchfab-embed-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .btn-unstyled {
+    text-align: left;
+  }  
+
