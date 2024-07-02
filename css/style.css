@@ -1,5 +1,5 @@
 .full-bg {
-    background-image: url('../img/background.png'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+    background-image: url('../img/bg.png'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
     background-size: cover;
     background-position: center;
     height: 100vh;
