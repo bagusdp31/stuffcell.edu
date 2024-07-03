@@ -88,14 +88,14 @@
 
 .rounded-button-menu {
     width: 600px;
-    height: 80px;
+    height: 60px;
     border-radius: 10px;
     background-color: #303F80; 
     border: none;
     font-size: 30px;
     cursor: pointer;
     text-align: center;
-    line-height: 80px;
+    line-height: 45px;
     color: white;        
 }
     
