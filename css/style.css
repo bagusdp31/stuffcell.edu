@@ -102,5 +102,10 @@
 .rounded-button-menu:hover {
     background-color: #0056b3; 
 }
-
+@media (max-width: 768px) {
+    .rounded-button-menu {
+        font-size: 1.2em;
+        width: 90%; /* Lebar lebih besar untuk layar kecil */
+    }
+}
 
