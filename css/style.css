@@ -104,7 +104,7 @@
 }
 @media (max-width: 768px) {
     .rounded-button-menu {
-        font-size: 0.5em;
+        font-size: 1em;
         width: 90%; /* Lebar lebih besar untuk layar kecil */
     }
 }
