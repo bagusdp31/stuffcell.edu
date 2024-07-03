@@ -111,7 +111,7 @@
 
 @media (max-width: 768px) {
     img {
-        font-size: 0.8em;
+        font-size: 0.2em;
         width: 90%; /* Lebar lebih besar untuk layar kecil */
     }
 }
