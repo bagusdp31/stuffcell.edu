@@ -118,6 +118,10 @@
         font-size: 1.2em;
         width: 90%; /* Lebar lebih besar untuk layar kecil */
     }
+    .judul {
+        font-size: 1.2em; 
+        color: #303F80;
+    }
 }
 
 
