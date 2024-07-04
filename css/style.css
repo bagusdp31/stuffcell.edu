@@ -1,0 +1,145 @@
+    body {
+      font-family: 'Nova Round', cursive;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .container {
+      flex: 1;
+    }
+.full-bg {
+    background-image: url('../img/bg.png'); /* Ganti 'background.jpg' dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center; /* Center secara horizontal */
+  }
+
+  .text-white {
+    color: white; /* Set teks menjadi putih */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .neon-background {
+    background: linear-gradient(45deg, #ff00ff, #00ff00, #00ffff, #ff00ff);
+    background-size: 400%;
+    animation: neon-gradient 10s ease infinite;
+    font-size: 60px;
+  }
+
+  @keyframes neon-gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  .btn {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+
+  .sketchfab-embed-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Untuk aspect ratio 16:9 */
+  }
+  
+  .sketchfab-embed-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .btn-unstyled {
+    text-align: left;
+  }  
+.rounded-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #303F80; 
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    color: white;        
+}
+    
+.rounded-button:hover {
+    background-color: #0056b3; 
+}
+
+.rounded-button-menu {
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #303F80; 
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    color: white;        
+}
+    
+.rounded-button-menu:hover {
+    background-color: #0056b3; 
+}
+
+.judul {
+  font-size: 60px; 
+  color: #303F80;
+}
+
+.subjudul {
+  font-size: 30px; 
+  color: #303F80;
+}
+
+@media (max-width: 768px) {
+    .rounded-button-menu {
+        font-size: 0.8em;
+        width: 100%; /* Lebar lebih besar untuk layar kecil */
+    }
+    .neon-background {
+        font-size: 2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    img {
+        font-size: 1.2em;
+        width: 90%; /* Lebar lebih besar untuk layar kecil */
+    }
+    .judul {
+      font-size: 35px; 
+      color: #303F80;
+    }
+    
+    .subjudul {
+      font-size: 25px; 
+      color: #303F80;
+    }
+}
+
+
