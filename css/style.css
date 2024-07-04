@@ -99,7 +99,10 @@
     line-height: 45px;
     color: white;        
 }
-    
+.judul {
+    font-size: 60px; 
+    color: #303F80;
+}
 .rounded-button-menu:hover {
     background-color: #0056b3; 
 }
